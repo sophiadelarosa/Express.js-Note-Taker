@@ -3,6 +3,36 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-image: url(../img/anotherbackground.jpg);
+}
+
+.navbar {
+  color: pink;
+}
+
+.jumbotron {
+  opacity: 95%;
+}
+
+.container-fluid {
+  margin: 3%;
+  opacity: 95%;
+}
+
+.note-title, .note-textarea {
+  margin: 1%;
+  padding: 20px;
+}
+
+.display-4 {
+  font-family: 'Rock Salt', cursive;
+  font-size: x-large;
+  color: rgb(227, 119, 94);
+}
+
+nav {
+  background-color: rgb(146, 80, 124);
+  opacity: 95%;
 }
 
 .save-note {
@@ -38,7 +68,7 @@ body {
 
 .note-title:read-only,
 .note-textarea:read-only {
-  color: #757575;
+  color: #515151;
 }
 
 .list-container .card {
